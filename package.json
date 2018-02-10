@@ -4,12 +4,13 @@
   "description": "a playground",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "build": "webpack"
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
   },
   "author": "bohan",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
